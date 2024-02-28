@@ -120,7 +120,7 @@ watch(
         title="Designed and Coded by Creative Tim"
         data-placement="bottom"
       >
-        Material Kit 2
+      Software Development Engineer
       </RouterLink>
       <RouterLink
         class="navbar-brand d-block d-md-none"
@@ -137,7 +137,7 @@ watch(
         Material Design
       </RouterLink>
       <a
-        href="https://www.creative-tim.com/product/vue-material-kit-pro"
+        href=""
         class="btn btn-sm bg-gradient-success mb-0 ms-auto d-lg-none d-block"
         >Buy Now</a
       >
@@ -175,7 +175,7 @@ watch(
                 :class="getTextColor()"
                 >dashboard</i
               >
-              Pages
+              Projeler
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -910,7 +910,7 @@ watch(
           </li>
           <li class="nav-item dropdown dropdown-hover mx-2">
             <a
-              href="https://www.github.com/creativetimofficial/vue-material-kit"
+              href="https://github.com/rabiayunusoglu"
               class="nav-link d-flex cursor-pointer align-items-center"
             >
               <svg
@@ -930,17 +930,7 @@ watch(
             </a>
           </li>
         </ul>
-        <ul class="navbar-nav d-lg-block d-none">
-          <li class="nav-item">
-            <a
-              :href="action.route"
-              class="btn btn-sm mb-0"
-              :class="action.color"
-              onclick="smoothToPricing('pricing-soft-ui')"
-              >{{ action.label }}</a
-            >
-          </li>
-        </ul>
+      
       </div>
     </div>
   </nav>
